@@ -1,0 +1,25 @@
+GET http://localhost:4000/post
+
+###
+GET http://localhost:4000/post/61bdc5f1a8cfce47d4ec2e60
+
+###
+POST http://localhost:4000/post
+Content-Type: application/json
+
+{
+    "title": "name 5",
+    "description": "this is one 2"
+}
+
+###
+DELETE http://localhost:4000/post/61bdc7a2a236c7fe2e1a5171
+
+###
+PUT http://localhost:4000/post/61bdc605a8cfce47d4ec2e63
+Content-Type: application/json
+
+{
+    "title": "3 3",
+    "description": " is one 2"
+}
